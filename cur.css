@@ -47,13 +47,11 @@ h1 {
     top: 20vh;
     left: 50%;
     transform: translateX(-50%);
-
-    width:50%;
+        width:50%;
     margin: 150px auto;
     padding: 50px 30px;
     background-color: #60264F;
     border-radius:3px;
-    color: #fff;
     box-shadow: 0 0 10px 0 #999;
 }
 
