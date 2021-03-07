@@ -70,7 +70,7 @@ const submitHandler = (e) => {
     }
 
     if(fromVal === toVal) {
-        return alert('Fun Fact: 1 amount X equals to 1 amount X')
+        return alert('Same Currency Can Not Be Converted')
     }    
 
     makeHttpRequest(`https://api.exchangeratesapi.io/latest?base=${fromVal}&symbols=${toVal}`, (response) => {
